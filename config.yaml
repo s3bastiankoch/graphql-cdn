@@ -1,0 +1,21 @@
+schema:
+  url: https://api.spacex.land/graphql
+upstream: https://api.spacex.land/graphql
+
+# noCacheOn:
+#   headers:
+#     - Authorization
+
+cache:
+  strategy: cf
+  ttl: 30000
+  ttlPerType:
+    Stock: 500
+  ttlPerSchemaCoordinate:
+    Query.rocketCoordinates: 400
+  ignoredTypes:
+    - User
+# retries:
+# network:
+#   enabled: true
+#   whenGraphQLResponse: false
