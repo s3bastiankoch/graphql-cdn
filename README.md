@@ -1,13 +1,11 @@
-## Graphql CDN
+## GraphQL CDN Cloudflare Worker Experiment
 
-**Graphl CDN** is a lightweight graphql cdn built for [Cloudflare Workers](https://workers.cloudflare.com). It sits in front of your web server, catches HTTP requests and tries to serve cached responses.
+This experiment is a lightweight graphql cdn built for [Cloudflare Workers](https://workers.cloudflare.com). It sits in front of your web server, catches HTTP requests and tries to serve cached responses.
 
 - ⚡ Serverless: Massive Scaling trough the network of cloudflare.
 - ⚙️ Configurable: Great Flexibility trough the config.yaml.
 
-## 📦 Setup
-
-### Start with `Graphql CDN`
+## 📦 Get started
 
 [Install `wrangler` CLI](https://github.com/cloudflare/wrangler#installation) and authorize `wrangler` with a Cloudflare account.
 
